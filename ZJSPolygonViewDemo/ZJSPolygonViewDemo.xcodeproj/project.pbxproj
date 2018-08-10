@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		073210BB211D351F003EBF33 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 073210BA211D351F003EBF33 /* AppDelegate.m */; };
+		073210BE211D351F003EBF33 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 073210BD211D351F003EBF33 /* ViewController.m */; };
+		073210C1211D351F003EBF33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 073210BF211D351F003EBF33 /* Main.storyboard */; };
+		073210C3211D3524003EBF33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 073210C2211D3524003EBF33 /* Assets.xcassets */; };
+		073210C6211D3524003EBF33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 073210C4211D3524003EBF33 /* LaunchScreen.storyboard */; };
+		073210C9211D3524003EBF33 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 073210C8211D3524003EBF33 /* main.m */; };
+		073210D3211D3525003EBF33 /* ZJSPolygonViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 073210D2211D3525003EBF33 /* ZJSPolygonViewDemoTests.m */; };
+		073210DE211D3525003EBF33 /* ZJSPolygonViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 073210DD211D3525003EBF33 /* ZJSPolygonViewDemoUITests.m */; };
+		073210EE211D353E003EBF33 /* ZJSPolygonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 073210ED211D353E003EBF33 /* ZJSPolygonView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		073210CF211D3524003EBF33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 073210AE211D351F003EBF33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 073210B5211D351F003EBF33;
+			remoteInfo = ZJSPolygonViewDemo;
+		};
+		073210DA211D3525003EBF33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 073210AE211D351F003EBF33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 073210B5211D351F003EBF33;
+			remoteInfo = ZJSPolygonViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		073210B6211D351F003EBF33 /* ZJSPolygonViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJSPolygonViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		073210B9211D351F003EBF33 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		073210BA211D351F003EBF33 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		073210BC211D351F003EBF33 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		073210BD211D351F003EBF33 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		073210C0211D351F003EBF33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		073210C2211D3524003EBF33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		073210C5211D3524003EBF33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		073210C7211D3524003EBF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		073210C8211D3524003EBF33 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		073210CE211D3524003EBF33 /* ZJSPolygonViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJSPolygonViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		073210D2211D3525003EBF33 /* ZJSPolygonViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJSPolygonViewDemoTests.m; sourceTree = "<group>"; };
+		073210D4211D3525003EBF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		073210D9211D3525003EBF33 /* ZJSPolygonViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJSPolygonViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		073210DD211D3525003EBF33 /* ZJSPolygonViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJSPolygonViewDemoUITests.m; sourceTree = "<group>"; };
+		073210DF211D3525003EBF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		073210EC211D353E003EBF33 /* ZJSPolygonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJSPolygonView.h; sourceTree = "<group>"; };
+		073210ED211D353E003EBF33 /* ZJSPolygonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJSPolygonView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		073210B3211D351F003EBF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		073210CB211D3524003EBF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		073210D6211D3525003EBF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		073210AD211D351F003EBF33 = {
+			isa = PBXGroup;
+			children = (
+				073210B8211D351F003EBF33 /* ZJSPolygonViewDemo */,
+				073210D1211D3525003EBF33 /* ZJSPolygonViewDemoTests */,
+				073210DC211D3525003EBF33 /* ZJSPolygonViewDemoUITests */,
+				073210B7211D351F003EBF33 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		073210B7211D351F003EBF33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				073210B6211D351F003EBF33 /* ZJSPolygonViewDemo.app */,
+				073210CE211D3524003EBF33 /* ZJSPolygonViewDemoTests.xctest */,
+				073210D9211D3525003EBF33 /* ZJSPolygonViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		073210B8211D351F003EBF33 /* ZJSPolygonViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				073210EB211D353E003EBF33 /* ZJSPolygonView */,
+				073210B9211D351F003EBF33 /* AppDelegate.h */,
+				073210BA211D351F003EBF33 /* AppDelegate.m */,
+				073210BC211D351F003EBF33 /* ViewController.h */,
+				073210BD211D351F003EBF33 /* ViewController.m */,
+				073210BF211D351F003EBF33 /* Main.storyboard */,
+				073210C2211D3524003EBF33 /* Assets.xcassets */,
+				073210C4211D3524003EBF33 /* LaunchScreen.storyboard */,
+				073210C7211D3524003EBF33 /* Info.plist */,
+				073210C8211D3524003EBF33 /* main.m */,
+			);
+			path = ZJSPolygonViewDemo;
+			sourceTree = "<group>";
+		};
+		073210D1211D3525003EBF33 /* ZJSPolygonViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				073210D2211D3525003EBF33 /* ZJSPolygonViewDemoTests.m */,
+				073210D4211D3525003EBF33 /* Info.plist */,
+			);
+			path = ZJSPolygonViewDemoTests;
+			sourceTree = "<group>";
+		};
+		073210DC211D3525003EBF33 /* ZJSPolygonViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				073210DD211D3525003EBF33 /* ZJSPolygonViewDemoUITests.m */,
+				073210DF211D3525003EBF33 /* Info.plist */,
+			);
+			path = ZJSPolygonViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		073210EB211D353E003EBF33 /* ZJSPolygonView */ = {
+			isa = PBXGroup;
+			children = (
+				073210EC211D353E003EBF33 /* ZJSPolygonView.h */,
+				073210ED211D353E003EBF33 /* ZJSPolygonView.m */,
+			);
+			name = ZJSPolygonView;
+			path = ../../ZJSPolygonView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		073210B5211D351F003EBF33 /* ZJSPolygonViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 073210E2211D3525003EBF33 /* Build configuration list for PBXNativeTarget "ZJSPolygonViewDemo" */;
+			buildPhases = (
+				073210B2211D351F003EBF33 /* Sources */,
+				073210B3211D351F003EBF33 /* Frameworks */,
+				073210B4211D351F003EBF33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJSPolygonViewDemo;
+			productName = ZJSPolygonViewDemo;
+			productReference = 073210B6211D351F003EBF33 /* ZJSPolygonViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		073210CD211D3524003EBF33 /* ZJSPolygonViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 073210E5211D3525003EBF33 /* Build configuration list for PBXNativeTarget "ZJSPolygonViewDemoTests" */;
+			buildPhases = (
+				073210CA211D3524003EBF33 /* Sources */,
+				073210CB211D3524003EBF33 /* Frameworks */,
+				073210CC211D3524003EBF33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				073210D0211D3524003EBF33 /* PBXTargetDependency */,
+			);
+			name = ZJSPolygonViewDemoTests;
+			productName = ZJSPolygonViewDemoTests;
+			productReference = 073210CE211D3524003EBF33 /* ZJSPolygonViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		073210D8211D3525003EBF33 /* ZJSPolygonViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 073210E8211D3525003EBF33 /* Build configuration list for PBXNativeTarget "ZJSPolygonViewDemoUITests" */;
+			buildPhases = (
+				073210D5211D3525003EBF33 /* Sources */,
+				073210D6211D3525003EBF33 /* Frameworks */,
+				073210D7211D3525003EBF33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				073210DB211D3525003EBF33 /* PBXTargetDependency */,
+			);
+			name = ZJSPolygonViewDemoUITests;
+			productName = ZJSPolygonViewDemoUITests;
+			productReference = 073210D9211D3525003EBF33 /* ZJSPolygonViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		073210AE211D351F003EBF33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "周建顺";
+				TargetAttributes = {
+					073210B5211D351F003EBF33 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					073210CD211D3524003EBF33 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 073210B5211D351F003EBF33;
+					};
+					073210D8211D3525003EBF33 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 073210B5211D351F003EBF33;
+					};
+				};
+			};
+			buildConfigurationList = 073210B1211D351F003EBF33 /* Build configuration list for PBXProject "ZJSPolygonViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 073210AD211D351F003EBF33;
+			productRefGroup = 073210B7211D351F003EBF33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				073210B5211D351F003EBF33 /* ZJSPolygonViewDemo */,
+				073210CD211D3524003EBF33 /* ZJSPolygonViewDemoTests */,
+				073210D8211D3525003EBF33 /* ZJSPolygonViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		073210B4211D351F003EBF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				073210C6211D3524003EBF33 /* LaunchScreen.storyboard in Resources */,
+				073210C3211D3524003EBF33 /* Assets.xcassets in Resources */,
+				073210C1211D351F003EBF33 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		073210CC211D3524003EBF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		073210D7211D3525003EBF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		073210B2211D351F003EBF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				073210BE211D351F003EBF33 /* ViewController.m in Sources */,
+				073210EE211D353E003EBF33 /* ZJSPolygonView.m in Sources */,
+				073210C9211D3524003EBF33 /* main.m in Sources */,
+				073210BB211D351F003EBF33 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		073210CA211D3524003EBF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				073210D3211D3525003EBF33 /* ZJSPolygonViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		073210D5211D3525003EBF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				073210DE211D3525003EBF33 /* ZJSPolygonViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		073210D0211D3524003EBF33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 073210B5211D351F003EBF33 /* ZJSPolygonViewDemo */;
+			targetProxy = 073210CF211D3524003EBF33 /* PBXContainerItemProxy */;
+		};
+		073210DB211D3525003EBF33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 073210B5211D351F003EBF33 /* ZJSPolygonViewDemo */;
+			targetProxy = 073210DA211D3525003EBF33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		073210BF211D351F003EBF33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				073210C0211D351F003EBF33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		073210C4211D3524003EBF33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				073210C5211D3524003EBF33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		073210E0211D3525003EBF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		073210E1211D3525003EBF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		073210E3211D3525003EBF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZJSPolygonViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomo.zhou.ZJSPolygonViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		073210E4211D3525003EBF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZJSPolygonViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomo.zhou.ZJSPolygonViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		073210E6211D3525003EBF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZJSPolygonViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomo.zhou.ZJSPolygonViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJSPolygonViewDemo.app/ZJSPolygonViewDemo";
+			};
+			name = Debug;
+		};
+		073210E7211D3525003EBF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZJSPolygonViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomo.zhou.ZJSPolygonViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJSPolygonViewDemo.app/ZJSPolygonViewDemo";
+			};
+			name = Release;
+		};
+		073210E9211D3525003EBF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZJSPolygonViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomo.zhou.ZJSPolygonViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZJSPolygonViewDemo;
+			};
+			name = Debug;
+		};
+		073210EA211D3525003EBF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZJSPolygonViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nomo.zhou.ZJSPolygonViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZJSPolygonViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		073210B1211D351F003EBF33 /* Build configuration list for PBXProject "ZJSPolygonViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				073210E0211D3525003EBF33 /* Debug */,
+				073210E1211D3525003EBF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		073210E2211D3525003EBF33 /* Build configuration list for PBXNativeTarget "ZJSPolygonViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				073210E3211D3525003EBF33 /* Debug */,
+				073210E4211D3525003EBF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		073210E5211D3525003EBF33 /* Build configuration list for PBXNativeTarget "ZJSPolygonViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				073210E6211D3525003EBF33 /* Debug */,
+				073210E7211D3525003EBF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		073210E8211D3525003EBF33 /* Build configuration list for PBXNativeTarget "ZJSPolygonViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				073210E9211D3525003EBF33 /* Debug */,
+				073210EA211D3525003EBF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 073210AE211D351F003EBF33 /* Project object */;
+}
