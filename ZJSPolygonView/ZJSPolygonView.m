@@ -82,7 +82,7 @@
                 [[ZJSPolygonPoint alloc] initWithX:0.1 y:0.45]];
     
     _polygonFillColor = [UIColor blueColor];
-   
+    
     _polygonBorderWidth = 2;
     _pointRadius = 5;
     
@@ -126,7 +126,7 @@
         pointLayer.frame = CGRectMake(x - self.pointRadius, y - self.pointRadius, self.pointRadius*2, self.pointRadius*2);
     }];
     [path closePath];
-   // self.polygonLayer.path = path.CGPath;
+    // self.polygonLayer.path = path.CGPath;
     [self.polygonBorderColor setStroke];
     [self.polygonFillColor setFill];
     [path stroke];
@@ -155,6 +155,7 @@
     if (currentPoint) {
         self.currentPoint = currentPoint;
         self.oldPoint = [currentPoint copy];
+        [self sendActionsForControlEvents:UIControlEventEditingDidBegin];
         return  YES;
     }
     
@@ -198,12 +199,16 @@
 }
 
 -(void)endTrackingWithTouch:(UITouch *)touch withEvent:(UIEvent *)event{
+    
     [self endHandler];
+    
 }
 
 -(void)cancelTrackingWithEvent:(UIEvent *)event{
     [self endHandler];
 }
+
+#pragma mark - private methods
 
 -(void)endHandler{
     if (self.currentPoint) {
@@ -214,19 +219,16 @@
             self.currentPoint.x = self.oldPoint.x;
             self.currentPoint.y = self.oldPoint.y;
             [self setNeedsDisplay];
+        }else{
+            [self sendActionsForControlEvents:UIControlEventValueChanged];
         }
-        
-        
-        
-        [self sendActionsForControlEvents:UIControlEventValueChanged];
     }
-    
     
     self.currentPoint = nil;
     self.oldPoint = nil;
+    
+    [self sendActionsForControlEvents:UIControlEventEditingDidEnd];
 }
-
-#pragma mark - private methods
 
 -(ZJSPolygonPoint*)getCurrentPointAtLocation:(CGPoint)location{
     CGFloat width = CGRectGetWidth(self.frame);
@@ -273,7 +275,7 @@
         layer.cornerRadius = self.pointRadius;
         
         layer.backgroundColor = self.pointColor.CGColor;
-    
+        
         [array addObject:layer];
         [self.layer addSublayer:layer];
     }
@@ -311,11 +313,11 @@
 }
 
 
-#pragma mark - 
+#pragma mark -
 
 /**
  判断是否有交点
-
+ 
  @return <#return value description#>
  */
 -(BOOL)checkIntersect{
@@ -411,13 +413,13 @@
 
 -(void)setPolygonFillColor:(UIColor *)polygonFillColor{
     _polygonFillColor = polygonFillColor;
-     [self setNeedsDisplay];
+    [self setNeedsDisplay];
 }
 
 -(void)setPolygonBorderWidth:(CGFloat)polygonBorderWidth{
     _polygonBorderWidth = polygonBorderWidth;
     [self setNeedsDisplay];
-   
+    
 }
 
 -(void)setPointRadius:(CGFloat)pointRadius{
