@@ -198,7 +198,14 @@
 }
 
 -(void)endTrackingWithTouch:(UITouch *)touch withEvent:(UIEvent *)event{
-    
+    [self endHandler];
+}
+
+-(void)cancelTrackingWithEvent:(UIEvent *)event{
+    [self endHandler];
+}
+
+-(void)endHandler{
     if (self.currentPoint) {
         
         // 判断是否有交叉点，如果有则还原到移动前的位置
@@ -209,7 +216,7 @@
             [self setNeedsDisplay];
         }
         
-    
+        
         
         [self sendActionsForControlEvents:UIControlEventValueChanged];
     }
@@ -217,7 +224,6 @@
     
     self.currentPoint = nil;
     self.oldPoint = nil;
-    
 }
 
 #pragma mark - private methods
